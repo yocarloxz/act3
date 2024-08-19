@@ -1,0 +1,29 @@
+public class VisitanteInfo {
+    public static void main(String[] args) {
+
+        // Declaración y asignación de valores a variables usando tipos de datos primitivos
+        byte edad = 25;
+        short numeroApartamentosVisitados = 15;
+        int identificacionVisitante = 123456;
+        long telefono = 1234567890L;
+        float tiempoVisitadoHoras = 2.5F;
+        double alturaVisitante = 1.78;
+        char inicialNombre = 'J';
+        boolean tieneIdentificacion = true;
+        String nombreVisitante = "Juan Pérez";
+        String fechaVisita = "5-10-2022";
+
+        // Impresión de los valores en pantalla
+        System.out.println("Información del Visitante:");
+        System.out.println("Nombre: " + nombreVisitante);
+        System.out.println("Inicial del nombre: " + inicialNombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Número de apartamentos visitados: " + numeroApartamentosVisitados);
+        System.out.println("Identificación del visitante: " + identificacionVisitante);
+        System.out.println("Teléfono del visitante: " + telefono);
+        System.out.println("Tiempo visitado (horas): " + tiempoVisitadoHoras);
+        System.out.println("Altura del visitante (metros): " + alturaVisitante);
+        System.out.println("¿Tiene identificación? " + tieneIdentificacion);
+        System.out.println("Fecha de la visita: " + fechaVisita);
+    }
+}
